@@ -6,9 +6,9 @@ pipeline {
     }
 
     environment {
-        PORT = "3000"
-        IMAGE_NAME = "nodemain:v1.0"
-        CONTAINER_NAME = "nodemain-container"
+        PORT = "3001"
+        IMAGE_NAME = "nodedev:v1.0"
+        CONTAINER_NAME = "nodedev-container"
     }
 
     stages {
@@ -32,7 +32,7 @@ pipeline {
             steps {
                 sh """
                     docker build -t ${IMAGE_NAME} .
-                    docker images | grep nodemain
+                    docker images | grep nodedev
                 """
             }
         }
