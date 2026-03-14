@@ -1,4 +1,9 @@
 <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+<<<<<<< HEAD
   <circle cx="100" cy="100" r="90" fill="#FF6B6B" stroke="#333" stroke-width="2"/>
   <text x="100" y="110" font-size="24" font-weight="bold" text-anchor="middle" fill="white">MAIN</text>
+=======
+  <circle cx="100" cy="100" r="90" fill="#4ECDC4" stroke="#333" stroke-width="2"/>
+  <text x="100" y="110" font-size="24" font-weight="bold" text-anchor="middle" fill="white">DEV</text>
+>>>>>>> 179c4571c017d25992cbded908f3f2b733c7bafd
 </svg>
